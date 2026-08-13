@@ -1,42 +1,58 @@
 ﻿# CPP_00
 
-C++ Module 00 from 42: first OOP exercises, classes, and basic IO.
+Modulo C++ 00 de 42: introduccion a clases, IO y primeras bases de OOP.
 
 ## Stack
 
 - School: 42
-- Primary language: C/C++
-- Scope: single repository per project
+- Lenguaje principal: C++98
+- Alcance: un repositorio por proyecto
 
-## Project Layout
+## Estructura
 
-| Exercise | Path |
-|---|---|
-| ex00 | ./ex00 |
-| ex01 | ./ex01 |
-| ex02 | ./ex02 |
+| Ejercicio | Ruta | Binario |
+|---|---|---|
+| ex00 | ./ex00 | megaphone |
+| ex01 | ./ex01 | PhoneBook |
+| ex02 | ./ex02 | Account |
 
-## How To Run
+## Como Ejecutarlo
 
-Build one exercise at a time:
+Compila y ejecuta cada ejercicio por separado:
+
+### ex00
 
 ~~~bash
 cd ex00
 make
-./<binary_name>
+./megaphone
 ~~~
 
-Repeat the same flow for: ex00, ex01, ex02
+### ex01
 
-## Testing
+~~~bash
+cd ex01
+make
+./PhoneBook
+~~~
 
-No dedicated test script detected in the repository root.
+### ex02
 
-## Notes
+~~~bash
+cd ex02
+make
+./Account
+~~~
 
-- This repository is maintained as part of a 42 portfolio.
-- Build commands are intentionally simple to keep evaluation reproducible.
+## Pruebas
 
-## Author
+No se detectaron scripts de testing dedicados en la raiz.
+
+## Notas
+
+- Este repositorio forma parte del portfolio de 42.
+- Los comandos estan orientados a ejecucion local para revision y evaluacion.
+
+## Autora
 
 anapaulapgavilan
