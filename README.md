@@ -4,6 +4,21 @@
 
 42 School C++ module 00: introduction to classes, IO, and the basics of OOP.
 
+## About This Project
+
+### What It Does
+
+This module is the entry point into C++ at 42, moving from plain C to a first taste of object-oriented programming. It covers namespaces, classes, member functions, stdio streams, initialization lists, static/const members, and basic exception handling, all through small, self-contained programs.
+
+Exercises in this module:
+- ex00: a "megaphone" CLI program that reads arguments or stdin and prints them in uppercase.
+- ex01: a PhoneBook contact manager (Contact/PhoneBook classes) with add/search commands over a fixed-size directory.
+- ex02: an Account class that logs every deposit, withdrawal, and balance check with timestamps.
+
+### Purpose
+
+It evaluates whether a C programmer can start thinking in classes and encapsulation: grouping data and behavior together, controlling access with private/public members, and replacing raw C idioms (structs + free functions) with small, well-defined objects.
+
 ## Stack
 
 - School: 42
@@ -19,6 +34,8 @@
 | ex02 | ./ex02 | Account |
 
 ## How to Run
+
+Prerequisites: `make` and a C++98-capable compiler (`g++` or `clang++`).
 
 Compile and run each exercise separately:
 
