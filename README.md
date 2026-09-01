@@ -25,6 +25,16 @@ It evaluates whether a C programmer can start thinking in classes and encapsulat
 - Primary language: C++98
 - Scope: one repository per project
 
+## Skills Demonstrated
+
+`C++98` | `Object-oriented programming` | `Encapsulation` | `Standard I/O streams`
+
+## Features
+
+- First object-oriented programs in C++98: classes, encapsulation, and member functions
+- Interactive PhoneBook with add/search commands over a fixed-size contact directory
+- Account class that logs deposits, withdrawals, and balance checks with timestamps
+
 ## Structure
 
 | Exercise | Path | Binary |
