@@ -35,6 +35,12 @@ It evaluates whether a C programmer can start thinking in classes and encapsulat
 - Interactive PhoneBook with add/search commands over a fixed-size contact directory
 - Account class that logs deposits, withdrawals, and balance checks with timestamps
 
+## Review Focus
+
+- Look for clean class boundaries between Contact, PhoneBook, and the CLI loop.
+- Review how input edge cases are handled without breaking the fixed-size phone book model.
+- Notice the transition from procedural C habits into encapsulated C++ objects.
+
 ## Structure
 
 | Exercise | Path | Binary |
