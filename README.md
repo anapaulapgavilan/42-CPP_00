@@ -41,6 +41,18 @@ It evaluates whether a C programmer can start thinking in classes and encapsulat
 - Review how input edge cases are handled without breaking the fixed-size phone book model.
 - Notice the transition from procedural C habits into encapsulated C++ objects.
 
+## Project Deep Dive
+
+CPP_00 is where the portfolio starts translating C habits into C++ design. The exercises are intentionally small, but they introduce the vocabulary that every later module depends on: classes, private state, public methods, constructors, standard streams, and the idea that behavior should live close to the data it controls.
+
+The strongest part of this module is the PhoneBook exercise, because it is the first place where input handling, persistent in-memory state, formatting, and class boundaries all meet. A reviewer can see how the program protects a fixed-size contact directory while still offering an interactive command loop.
+
+## Implementation Notes
+
+- Uses C++98 standard streams instead of C-style stdio for user interaction.
+- Keeps Contact and PhoneBook responsibilities separate instead of storing everything in main.
+- Handles a fixed-capacity model, which forces deliberate replacement/search behavior instead of unbounded containers.
+
 ## Structure
 
 | Exercise | Path | Binary |
